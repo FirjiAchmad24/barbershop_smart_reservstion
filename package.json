@@ -1,0 +1,31 @@
+{
+  "name": "pangkas-rambut-anda",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:web": "vite",
+    "dev:server": "node --no-warnings server/index.js",
+    "dev:server:watch": "node --watch --no-warnings server/index.js",
+    "start": "node --no-warnings server/index.js",
+    "build": "vite build",
+    "test": "node --test",
+    "preview": "vite preview",
+    "db:reset": "node --no-warnings server/reset-database.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}
